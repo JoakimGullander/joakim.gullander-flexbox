@@ -1,0 +1,368 @@
+html {
+    background: rgb(182, 255, 249)
+}
+.container {
+    margin: 0 1% 0 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    flex-grow: 1;
+    height: 150px;
+    margin: 10px 10px 0 10px; 
+
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    align-items: center;
+}
+.checkout {
+    background-color: rgb(0, 255, 0);
+}
+.checkout:hover {
+    background-color: rgb(0, 238, 255)
+}
+.click {
+    flex-grow: 1;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin: 10px 11px 0px 11px;
+    height: 150px;
+/*
+    position: relative;
+    background-color: rgb(0, 255, 0);
+    border: none;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    height: 150px;
+    text-align: center;
+    transition: all 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+*/
+    /*flex-grow: 1;
+    height: 150px;
+    margin: 0 1px 0 1px;
+
+    text-decoration: none;
+    color: black;*/
+}
+.button {
+    position: relative;
+    background-color: rgb(0, 255, 0);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button:after {
+    content: "";
+    background: rgb(0, 238, 255);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1.2s
+}
+  
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+/*
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}*/
+ /* 
+.click:hover {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 75%;
+    padding-left: 75%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 10s;
+    height: 150px;
+    width: 19%;
+}
+  
+.click:active:hover {
+    padding: 75%;
+    margin: 75%;
+    opacity: 1;
+    transition: 5s;
+    height: 150px;
+    width: 19%;
+}*/
+/*.item + .item {
+    margin-left: 1%;
+}*/
+.center {
+    display: flex; 
+    align-self: center;
+    width: 99%;
+    height: 400px;
+    margin-top: 100px;
+}
+.selected-item {
+    flex-grow: 1;
+    height: 150px; 
+
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px 10px 0 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+.title-box {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column-reverse;
+    padding: 9% 9% 25% 9%;
+    font-size: 28px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 1%;
+}
+.text-contacts {
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+    margin-top: 1%;
+    padding-right: 25%;
+}
+.title-contacts {
+    justify-content: flex-start;
+    padding: 100px 0 0 100px;
+}
+.text-about {
+    
+}
+.footer-container {
+    display: flex;
+    background-color: rgb(0, 255, 179);
+    height: 150px;
+    width: 98%;
+    border-radius: 3px; 
+    border: 2px solid black; 
+    box-sizing: border-box; 
+
+    justify-content: center;
+    margin: 200px 1% 0 1%;
+} 
+.footer-text {
+    justify-content: center;
+    padding-left: 900px
+}
+.bild {
+    width: 20%;
+    margin: 1% 1% 0 1%;
+
+    border-radius: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+.bildJ {
+    width: 30%; 
+    margin: 1% 1% 0 0;
+
+    border-radius: 5px; 
+    border: 3px solid black; 
+    box-sizing: border-box;
+}
+.bild-container {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button {
+    text-decoration: none;
+    color: black;
+}
+.documentation {
+    height: 50px;
+    width: 100px;
+    padding-bottom: 125px; 
+}
+.documentation-text {
+    padding: 100px 0 0 100px;
+}
+.item-documentation {
+    flex-grow: 1;
+    height: 50px;
+    margin: 50px 10px 100px 10px; 
+
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+    align-items: center;
+    justify-content: center; 
+}
+.footer-documentation {
+    text-decoration: none;
+    color: black;
+    height: 100px;
+}
+.documentation-footer {
+    margin-bottom: 1%;
+    height: 100px;
+    width: 150px;
+}
+.footer-title {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column-reverse;
+    padding: 9% 9% 10% 9%;
+    font-size: 28px; 
+}
+.picture-padding {
+    padding: 100px 100px 0 100px;
+}* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #b9b9b9;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.pic-slide-show {
+    width: 60%; 
+    margin-left: 19%;
+    border-radius: 25px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
